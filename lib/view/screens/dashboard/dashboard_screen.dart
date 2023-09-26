@@ -4,6 +4,7 @@ import 'package:financialui/util/color_resources.dart';
 import 'package:financialui/util/dimensions.dart';
 import 'package:financialui/util/images.dart';
 import 'package:financialui/view/screens/dashboard/widget/bottom_nav_item.dart';
+import 'package:financialui/view/screens/history/history_screen.dart';
 import 'package:financialui/view/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -33,9 +34,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
     _pageController = PageController(initialPage: widget.pageIndex!);
 
     _screens = [
-      const HomeScreen(),
-      const HomeScreen(),
-      const HomeScreen(),
+       HomeScreen(),
+       HomeScreen(),
+       HistoryScreen(),
       AccountScreen(),
     ];
 

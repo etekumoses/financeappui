@@ -60,7 +60,7 @@ class AccountScreen extends StatelessWidget {
 class SliverDelegate extends SliverPersistentHeaderDelegate {
   Widget child;
 
-  SliverDelegate({required this.child});
+  SliverDelegate({required this.child, required double expandedHeight});
 
   @override
   Widget build(
